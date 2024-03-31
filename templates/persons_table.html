@@ -1,0 +1,4 @@
+{% for person in persons %}
+    {{ person }}
+    <a href="{% url 'sighting_list' person.id %}">View Sightings</a>
+{% endfor %}

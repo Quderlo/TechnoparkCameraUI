@@ -1,0 +1,11 @@
+
+<h1>Sightings List</h1>
+<ul>
+    {% for sighting in sightings %}
+    <li>{{ sighting.sighting_time }} - {{ sighting.person }}<br>
+        <img src="data:image/jpeg;base64,{{ sighting.camera_photo }}" alt="Sighting Photo">
+    </li>
+    {% empty %}
+    <li>No sightings available</li>
+    {% endfor %}
+</ul>
