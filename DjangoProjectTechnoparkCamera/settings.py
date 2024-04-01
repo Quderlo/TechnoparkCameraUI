@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'technoparkData',
         'USER': 'postgres',
-        'PASSWORD': 'kafprog',
+        'PASSWORD': '123',
         'HOST': 'localhost',
         'PORT': '5432',
     }
